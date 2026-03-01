@@ -4,7 +4,7 @@ on:
   pull_request:
     types: [opened]
   schedule:
-    - cron: '15 16 * * *'
+    - cron: '45 16 * * *'
   pull_request_review:
     types: [submitted]
 
